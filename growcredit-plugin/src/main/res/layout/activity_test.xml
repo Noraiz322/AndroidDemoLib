@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter partner token"
+        android:textSize="25sp"
+        android:textColor="@android:color/white"/>
+    <EditText
+        android:id="@+id/etPartnerToken"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter partner token"
+        android:text="RjQUlvjkt1gDe3fvffJvmdJhrjDH2t"/>
+
+    <Button
+        android:id="@+id/btnInvokeCompleteWidget"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#e4ffde"
+        android:textColor="@android:color/black"
+        android:text="Invoke Complete widget"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter account reference id"
+        android:textSize="25sp"
+        android:textColor="@android:color/white"/>
+    <EditText
+        android:id="@+id/etReferenceId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="6pSPErMrMHxLd43I9ROLTfv1YBPhwkxFJaeJaVmTwGg="
+        android:hint="Enter reference ID"/>
+
+    <Button
+        android:id="@+id/btnInvokePlaidWidget"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#e4ffde"
+        android:textColor="@android:color/black"
+        android:text="Invoke Plaid widget"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <Button
+        android:id="@+id/btnIncompleteWidget"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#e4ffde"
+        android:textColor="@android:color/black"
+        android:text="Resume Widget"/>
+
+
+</LinearLayout>

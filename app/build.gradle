@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId "com.growcreditplugin.myapplication"
-        minSdk 24
+        minSdk 26
         targetSdk 34
         versionCode 1
         versionName "1.0"
@@ -42,6 +42,6 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 
-//    implementation project(':sumlib')
-    implementation 'com.github.Noraiz322:AndroidDemoLib:1.0.0'
+    implementation project(':growcredit-plugin')
+//    implementation 'com.github.Noraiz322:AndroidDemoLib:1.0.0'
 }

@@ -1,4 +1,4 @@
-package com.growcreditplugin.sumlib
+package com.growcredit.widget.plugin
 
 import org.junit.Test
 
